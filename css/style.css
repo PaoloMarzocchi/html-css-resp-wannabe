@@ -130,18 +130,14 @@ img {
 
 @media screen and (max-width: 768px) {
     .container{
-        max-width: 728px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 480px) {
-    
-    .lessons, .steps, .why-us{
-       width: 100%;
-    }
-    
+      
     .container{
-        max-width: 440px;
+        width: 100%;
     }
 
     .row{
@@ -154,3 +150,4 @@ img {
         width: 100%;
     }
 }
+
